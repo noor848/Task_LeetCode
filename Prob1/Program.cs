@@ -13,11 +13,12 @@
         return arr[((n + m) / 2)];
     }
 
-    public static void Main()
+    public static void Main(string args[])
     {
         int []arr ={1,2,3};
         int[] arr2 = { 1 };
         Console.WriteLine(FindMedianSortedArrays(arr, arr2)); 
+
     }
 
 }
